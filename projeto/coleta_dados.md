@@ -16,4 +16,4 @@ A arquitetura do projeto será montada na cloud pública Amazon Web Service(AWS)
 * SageMaker - Treinamento de modelos de aprendizado de máquina
 * Microsoft PowerBI  - Visualização de métricas
 
-![arquitetura](")
+![arquitetura](https://github.com/Tecnologia-em-Banco-de-Dados-PUC-Minas/eixo5_grupo3_20241/blob/main/projeto/ext/arquteturap5)
