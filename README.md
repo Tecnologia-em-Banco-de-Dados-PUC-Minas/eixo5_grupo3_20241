@@ -1,12 +1,12 @@
 # Eixo-5
 Arquitetura de Dados em Nuvem
 
-# Machine Learning e Price Action em ações
+# Machine Learning e Avaliação da Rotatividade de Clientes Bancários
 `Tecnologia em Banco de Dados`
 `2024/01`
 
 O presente trabalho tem como objetivo aprimorar e desenvolver os conhecimentos acerca de Arquitetura de Dados em nuvem e algoritimos de Machine Learning, através do desenvolvimento de métodos para uso dos dados no apoio à tomada de decisões gerenciais. 
-O grupo produzirá um modelo de Machine Learning para automatizar recomendações em relação à tendências de preço de ações usando série temporal e indicadores de "Price Action". 
+O grupo produzirá um modelo de Machine Learning para prever se clientes de um banco fictício continua com sua conta ou a fecha. 
 
 ## Integrantes
  * Ana Paula Rodrigues Paiva Ferreira
