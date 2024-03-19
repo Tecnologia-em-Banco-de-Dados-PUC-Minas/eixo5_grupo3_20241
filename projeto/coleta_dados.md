@@ -42,12 +42,16 @@ Um Data Lake  é uma arquitetura de armazenamento centralizada e escalável que 
 Para criar o Data Lake de forma governada, utilizaremos o serviço AWS Lake Formation. O AWS Lake Formation integra-se aos serviços de segurança, armazenamento, análise e machine learning da AWS e os configura automaticamente para estar em conformidade com seus controles de acesso centralizados por meio de um console web. 
 
 
-##### Integração (ingestão)
+##### Coleta de Dados (ingestão)
 
 A ingestão de dados é o processo de coleta e importação de dados brutos ou não processados de várias fontes para um sistema de armazenamento ou processamento onde podem ser manipulados, analisados e utilizados para diferentes finalidades.
 
-Será utilizado o AWS S3 e o console da interface web do usuário para fazer o upload manual dos arquivos
+A fonte de dados será um dataset do site Kaggle a seguir https://www.kaggle.com/datasets/shubhammeshram579/bank-customer-churn-prediction
 
+A obtenção será via download manual do referido site para uma máquina local. 
+
+Em seguida será utilizado o AWS S3 e o console da interface web do usuário para fazer o upload manual dos arquivos
+<br>
 
 ##### Catálogo e Qualidade de dados
 
