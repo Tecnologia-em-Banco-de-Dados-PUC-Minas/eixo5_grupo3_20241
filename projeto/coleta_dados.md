@@ -48,6 +48,8 @@ A ingestão de dados é o processo de coleta e importação de dados brutos ou n
 
 A fonte de dados será um dataset do site Kaggle a seguir https://www.kaggle.com/datasets/shubhammeshram579/bank-customer-churn-prediction
 
+O conjunto de dados de rotatividade de clientes bancários contém informações sobre clientes bancários e seu status de rotatividade e é comumente usado para aprendizado de máquina
+
 A obtenção será via download manual do referido site para uma máquina local. 
 
 Em seguida será utilizado o AWS S3 e o console da interface web do usuário para fazer o upload manual dos arquivos
