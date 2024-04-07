@@ -1,4 +1,5 @@
 Preparação do ambiente
+Para a etapa de pré-processamento de dados, foi definida pelo grupo a utilização da plataforma AWS pela  infraestrutura de computação global escalável, confiável e segura. Usamos o Athena para realizar consultas interativas, para facilitar a análise de dados diretamente no S3, que é um serviço de armazenamento de objetos que oferece escalabilidade, disponibilidade de dados, segurança e performance onde  criamos o bucket "grupo3-2024-1-MachineLearning" e o subimos nossos dados como objeto "Churn_Modelling.csv e configuramos uma política de criptografia para proteger os dados em repouso e em trânsito. Outro serviço usado foi o Glue que nos possibilitou criar nosso banco de dados.
 
 Criação do armazenamento no AWS S3
 ![image](https://github.com/Tecnologia-em-Banco-de-Dados-PUC-Minas/eixo5_grupo3_20241/assets/69175639/1e492f78-0d65-417d-b629-1438bcc2a089)
