@@ -64,6 +64,9 @@ No nosso dataset temos duas variáveis categóricas, “Geography” e “Gender
 “Gender”:  “Male” ou “Female”.
 Para transformar essas variáveis em formato numérico, usamos a função get_dummies() (também conhecida como OneHotEncoder). Criando novas colunas para cada categoria única, indicando a presença ou ausência dessa categoria em cada linha original.
 
+<br>
+
+[Arquivo de código de Transformação de dados](projeto/ext/limpeza_tf.ipynb)
 
 
 
