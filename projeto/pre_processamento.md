@@ -1,4 +1,6 @@
-Preparação do ambiente
+### Pré-processamento de dados
+
+#### 1. Preparação do ambiente
 
 Para a etapa de pré-processamento de dados, foi definida pelo grupo a utilização da plataforma AWS pela  infraestrutura de computação global escalável, confiável e segura. Usamos o Athena para realizar consultas interativas, para facilitar a análise de dados diretamente no S3, que é um serviço de armazenamento de objetos que oferece escalabilidade, disponibilidade de dados, segurança e performance onde  criamos o bucket "grupo3-2024-1-MachineLearning" e o subimos nossos dados como objeto "Churn_Modelling.csv e configuramos uma política de criptografia para proteger os dados em repouso e em trânsito. Outro serviço usado foi o Glue que nos possibilitou criar nosso banco de dados.
 
@@ -19,9 +21,9 @@ Preview da tabela com descrição dos campos
 ![image](https://github.com/Tecnologia-em-Banco-de-Dados-PUC-Minas/eixo5_grupo3_20241/assets/69175639/ec0d72b1-c4cc-49d1-b8b6-cef916d9f847)
 
 
-Limpeza de dados
+#### 2. Limpeza de dados
 
-Exclusão de colunas desnecessárias
+##### Exclusão de colunas desnecessárias
 
 Algumas colunas apresentam apenas informações de individualização dos dados do cliente, não sendo capazes de influenciar o resultado da variável ‘Target’ de mudar ou não de banco.  Como a manutenção deste tipo de dados apenas reduziria a acurácia do modelo, foram excluídas as colunas ‘CustomerId’, ‘Surname’ e ‘RowNumber’.
  
