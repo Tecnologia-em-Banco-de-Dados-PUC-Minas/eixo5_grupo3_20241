@@ -19,6 +19,19 @@ Preview da tabela com descrição dos campos
 ![image](https://github.com/Tecnologia-em-Banco-de-Dados-PUC-Minas/eixo5_grupo3_20241/assets/69175639/ec0d72b1-c4cc-49d1-b8b6-cef916d9f847)
 
 
+Limpeza de dados
+
+Exclusão de colunas desnecessárias
+
+Algumas colunas apresentam apenas informações de individualização dos dados do cliente, não sendo capazes de influenciar o resultado da variável ‘Target’ de mudar ou não de banco.  Como a manutenção deste tipo de dados apenas reduziria a acurácia do modelo, foram excluídas as colunas ‘CustomerId’, ‘Surname’ e ‘RowNumber’.
+ 
+Convertendo variáveis categóricas em numéricas
+
+Durante a análise exploratória do banco de dados, identificamos que algumas variáveis são categóricas. Essas variáveis representam dados qualitativos e podem ser agrupadas em categorias específicas. Para otimizar o desempenho do modelo de aprendizado de máquina, é recomendado transformar essas variáveis categóricas em formatos numéricos. Dessa forma, o modelo pode processá-las de maneira mais eficiente.
+No nosso dataset temos duas variáveis categóricas, “Geography” e “Gender” com as seguintes características:
+“Geography”:  “France”, “Germany” ou “Spain”.
+“Gender”:  “Male” ou “Female”.
+Para transformar essas variáveis em formato numérico, usamos a função get_dummies() (também conhecida como OneHotEncoder). Criando novas colunas para cada categoria única, indicando a presença ou ausência dessa categoria em cada linha original.
 
 
 
