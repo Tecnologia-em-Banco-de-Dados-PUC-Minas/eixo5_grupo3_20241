@@ -66,7 +66,7 @@ Para transformar essas variáveis em formato numérico, usamos a função get_du
 
 <br>
 
-[Arquivo de código de Transformação de dados](projeto/ext/limpeza_tf.ipynb)
+[Arquivo de código de Transformação de dados](ext/limpeza_tf.ipynb)
 
 
 
