@@ -1,5 +1,7 @@
- **Aprendizado de máquina e algorítimos**
- 
+### **Aprendizado de máquina e algoritmos**
+
+<br>
+
 Uma vez que os dados foram limpos e tratados e o ambiente preparado para a execução do pipeline, iniciaremos a abordagem de aprendizado de máquina. 
  
 
@@ -26,7 +28,7 @@ Ademais a separação adequada dos dados em conjuntos de treino e teste é funda
 
 Uma outra abordagem comum na preparação dos dados para treino, é o uso de uma matriz de correlação. Matriz de correlação é uma ferramenta amplamente utilizada em análise de dados e aprendizado de máquina para medir e visualizar a relação entre diferentes variáveis em um conjunto de dados. A matriz de correlação ajuda a identificar se duas ou mais variáveis estão correlacionadas, e qual a força e direção dessa correlação. A correlação varia de -1 a 1. Um valor positivo indica que, à medida que uma variável aumenta, a outra tende a aumentar também; um valor negativo indica que, à medida que uma variável aumenta, a outra tende a diminuir. Um valor próximo a 0 sugere pouca ou nenhuma correlação. A matriz de correlação é útil para identificar recursos (features) que têm uma forte correlação com a variável de destino (target), indicando que podem ser relevantes para o modelo. Por outro lado, recursos com baixa ou nenhuma correlação podem ser menos úteis para o modelo. Em anexo, temos o código utilizado para a preparação usando matriz de correlação. 
 
-  **Preparação de ambiente para execução dos algorítimos**
+  **Preparação de ambiente para execução dos algoritmos**
 
 A seguir uma demonstração de configuração para execução dos trabalhos na plataforma Sagemaker da AWS que fará a execução por meio de jupyter notebook.
 ![image](https://github.com/Tecnologia-em-Banco-de-Dados-PUC-Minas/eixo5_grupo3_20241/assets/69175639/c865cbd6-2ab7-4ba7-b23d-d1b737c225da)
@@ -49,6 +51,26 @@ Criação de studio jupyter lab. Dentro dele são armazenados scripts executado 
 
 Página do studio Jypter lab
 
+<br>
+<br>
+
+**Saídas das execuções dos algoritmos**
+
+![image](https://github.com/Tecnologia-em-Banco-de-Dados-PUC-Minas/eixo5_grupo3_20241/assets/69175639/e7e25e48-1b5a-40f5-ab92-c122ae6b9b39)
+
+KNN (K-Nearest Neighbors)
+
+![image](https://github.com/Tecnologia-em-Banco-de-Dados-PUC-Minas/eixo5_grupo3_20241/assets/69175639/408ada6f-211a-4450-b2ce-a0cd47534de6)
+
+Naive Bayes
+
+![image](https://github.com/Tecnologia-em-Banco-de-Dados-PUC-Minas/eixo5_grupo3_20241/assets/69175639/8caab41e-94f9-4124-aa5a-7341e75e46aa)
+
+
+XGBoost
+
+
+[Arquivo de código de Execução de algoritmos](ext/ML_etapa4pucmg.ipynb)
 
 
 
