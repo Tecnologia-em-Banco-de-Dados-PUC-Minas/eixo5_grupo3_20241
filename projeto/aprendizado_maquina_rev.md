@@ -27,6 +27,29 @@ Ademais a separação adequada dos dados em conjuntos de treino e teste é funda
 
   **Preparação de ambiente para execução dos algorítimos**
 
+A seguir uma demonstração de configuração para execução dos trabalhos na plataforma Sagemaker da AWS que fará a execução por meio de jupyter notebook.
+![image](https://github.com/Tecnologia-em-Banco-de-Dados-PUC-Minas/eixo5_grupo3_20241/assets/69175639/c865cbd6-2ab7-4ba7-b23d-d1b737c225da)
+
+Página principal do SageMaker
+
+![image](https://github.com/Tecnologia-em-Banco-de-Dados-PUC-Minas/eixo5_grupo3_20241/assets/69175639/60059e50-3ac4-44b4-af6b-dfb6bf8f5d25)
+
+Por questões de governança e permissionamento de acessos, é necessário criar um domínio no serviço. Esse domínio hospeda usuários e gerencia permissões de acessos. 
+
+![image](https://github.com/Tecnologia-em-Banco-de-Dados-PUC-Minas/eixo5_grupo3_20241/assets/69175639/12796d15-393b-4703-80e5-584729a14992)
+
+Criação de usuário padrão
+
+![image](https://github.com/Tecnologia-em-Banco-de-Dados-PUC-Minas/eixo5_grupo3_20241/assets/69175639/1a967c07-b3bb-4315-9249-4dc4dcd16663)
+
+Criação de studio jupyter lab. Dentro dele são armazenados scripts executado bibliotecas entre outros. 
+
+![image](https://github.com/Tecnologia-em-Banco-de-Dados-PUC-Minas/eixo5_grupo3_20241/assets/69175639/6b1b478f-c927-4a3e-bb5d-4d9b6ea4d2b0)
+
+Página do studio Jypter lab
+
+
+
 
  
  
